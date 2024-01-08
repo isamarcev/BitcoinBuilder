@@ -7,13 +7,14 @@ NETWORK_MODE = "testnet"
 """sudo apt-get install python3.x-dev"""
 ADDRESS_1 = "mhqFgt885yKTjwe8J5S9fvXNerDYKbFmi8"
 PK_1 = "0fbeb4a8923e11afc9dec6fd17e887fb735ffcd154fd3adcad865fa23f47cabf"
-AMOUNT_TO_TRANSFER = 100
+
 ADDRESS_2 = "n4NpDkLY5NrXX1JYpLTriqVu6g8PRHcSjC"
 PK_2 = "cQxQstpNBh4jknQcEEANRzpR6z2nYtNeLG38v1sm1PuuNCVSdRH8"
 
 ADDRESS_3 = "mkfhR2Bap9axzu1QoeCX7DtPLcyGT6g7Fh"
 PK_3 = "cTnEhjCaW1ezL7ynqEQ3KcFTv772RfZeefYcn4MHmtcicXGnFfmt"
 
+AMOUNT_TO_TRANSFER = 100
 WALLET_NAME_TEMPORARY = "First"
 wallet_delete_if_exists(WALLET_NAME_TEMPORARY, force=True)
 ADDRESS_FROM = ADDRESS_1
